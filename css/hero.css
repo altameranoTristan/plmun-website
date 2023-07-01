@@ -1,0 +1,51 @@
+/* HERO */
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section h1{
+    font-size: 8rem;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    margin-bottom: -20px;
+}
+
+.hero-section h1:hover{
+    -webkit-text-stroke: 3px white;
+    color: transparent;
+}
+
+.hero-section p{
+    margin-bottom: 40px;
+}
+.hero-section a{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 50px;
+    transition: 1s;
+}
+
+.hero-section a:hover{
+    background-color: white;
+    color: black;
+    padding-inline: 100px;
+}
+
+@media (max-width:700px) {
+
+    .hero-section h1{
+        font-size: 6rem;
+    }
+
+    .hero-section p{
+        padding-inline: 5rem;
+    }
+}

@@ -1,0 +1,18 @@
+/* VIDEO BACKGROUND */
+
+.video-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    background-color: black;
+}
+
+#video-background{
+    object-fit:cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: .4;
+}
